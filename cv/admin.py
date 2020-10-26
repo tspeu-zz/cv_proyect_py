@@ -1,7 +1,8 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 
-from cv.models import CV, Usuario, CvUsuario, PersonalData, Education, WorkExp, Skill, Language, Course, Link
+from cv.models import CV, Usuario, CvUsuario, PersonalData, Education, WorkExp, Skill, \
+    Language, Course, Link, Description
 
 
 
@@ -17,3 +18,4 @@ admin.site.register(Skill)
 admin.site.register(Language)
 admin.site.register(Course)
 admin.site.register(Link)
+admin.site.register(Description)
