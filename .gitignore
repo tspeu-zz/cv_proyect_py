@@ -5,6 +5,7 @@ readme.md
 .readme.md
 /readme.md
 cv_proyect/settings.py
+cv_proyect/.env
 ### Django ###
 *.log
 *.pot
@@ -15,7 +16,6 @@ db.sqlite3
 db.sqlite3-journal
 media
 .idea/
-
 # If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
 # in your Git repository. Update and uncomment the following line accordingly.
 # <django-project-name>/staticfiles/
